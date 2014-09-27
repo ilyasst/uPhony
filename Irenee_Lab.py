@@ -4,16 +4,16 @@ from record_to_array import *
 from scipy.signal import *
 import struct
 
-#get ten seconds of audio data
-data=record_array(10)
-t=linspace(0,10,len(data))
+##get ten seconds of audio data
+#data=record_array(10)
+#t=linspace(0,10,len(data))
 
 #plot raw data
-figure(1)
-plot(t,data)
-xlabel('Time (s)')
-ylabel('Voltage (V)')
-title('ECG Reading from Heart')
+#figure(1)
+#plot(t,data)
+#xlabel('Time (s)')
+#ylabel('Voltage (V)')
+#title('ECG Reading from Heart')
 
 #Adamson's filter
 #Define sampling rate and Nyquist frequency
