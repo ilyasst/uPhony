@@ -1,5 +1,3 @@
-*****Appendix B– filtered_ecg.py **Only use as a reference***
-
 from matplotlib.pyplot import *
 from scipy import *
 from record_to_array import *
